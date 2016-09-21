@@ -1,6 +1,8 @@
 var alertsModule = angular.module("alertsModule", []);
 var userDetailModule = angular.module("userDetailModule", []);
-var homeModule = angular.module("homeModule", ['alertsModule', 'userDetailModule']);
+var famDetailModule = angular.module("famDetailModule", []);
+var custContactModule = angular.module("custContactModule", []);
+var homeModule = angular.module("homeModule", ['alertsModule', 'userDetailModule', 'famDetailModule', 'custContactModule']);
 var csrApp = angular.module('csrApp', ['ngRoute', 'homeModule', 'alertsModule']);
 
 // configure our routes

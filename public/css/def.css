@@ -13,12 +13,12 @@
 
 .margin-all-05 { margin-top: 0.5em; margin-left: 0.5em; margin-right: 0.5em; margin-bottom: 0.5em; }
 
-.blackoutline {
-    outline: 1px solid black;
+.outline {
+    outline: 1px solid #800000;
 }
 
 .button {
-    background-color: #f44336; /* Red */
+    background-color: #800000; /* Red */
     border: none;
     color: white;
     padding: 7px 20px;
@@ -28,4 +28,16 @@
     font-size: 13px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.alertsAlign {
+  text-align: center;
+  color: #800000; /* Red */
+  font-size: 18px;
+}
+
+.tableHeading {
+  background-color: #800000;
+  color: white; /* Red */
+  font-size: 15px;
 }

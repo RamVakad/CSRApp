@@ -7,5 +7,4 @@ alertsModule.directive("alertWidget", function () {
         controller:"alertWidgetController",
         templateUrl: "partials/directives/alertsPartial.html"
     };
-
 });
