@@ -41,3 +41,9 @@
   color: white; /* Red */
   font-size: 15px;
 }
+.billTableHeading {
+  background-color: #800000;
+  color: white; /* Red */
+  text-align: center;
+  font-size: 12px;
+}
